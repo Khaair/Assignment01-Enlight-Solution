@@ -13,7 +13,7 @@
 }
 
 .header {
-  background-color: #1c538e;
+  background-color: #0f295c;
   grid-column: 1/-1;
 }
 .banner {
@@ -45,6 +45,7 @@ body {
 
 .logo {
   padding-left: 50px;
+  padding-top: -30px;
 }
 
 .hero {
@@ -76,10 +77,14 @@ ul li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: x-large;
+}
+li a:hover {
+  background-color: #f14a60;
 }
 a {
   display: block;
@@ -107,18 +112,15 @@ a {
   width: 90%;
 }
 
-.searchbox img {
-  width: 25px;
-  height: 20px;
-  cursor: pointer;
-}
-
 .searchbox input {
+  height: 55px;
   width: 50%;
   margin-left: 15px;
   font-size: 17px;
   border: 0;
   outline: none;
+  border-radius: 10px;
+  padding-left: 20px;
 }
 
 .detail h1 {
@@ -139,7 +141,7 @@ a {
 }
 
 .card-heading-text {
-  background-color: white;
+  background-color: #0f295c;
   height: 100px;
   width: auto;
   border: 2px solid #d0d1d5;
@@ -148,9 +150,11 @@ a {
 
   padding: 12px;
 
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 4px black;
+  box-sizing: border-box;
   display: grid;
   justify-content: center;
+  color: white;
 }
 
 /*card-heading-text end */
@@ -164,8 +168,8 @@ a {
   flex-wrap: wrap;
 }
 .card {
-  width: 300px;
-  height: 500px;
+  width: 250px;
+  height: 450px;
   padding: 5px;
   box-shadow: 1px 2px 4px black;
   box-sizing: border-box;
@@ -219,5 +223,23 @@ a {
 }
 .footer-title {
   color: white;
+  padding-bottom: 10px;
+}
+.footer-area-02 a {
+  color: #fe9910;
+}
+.footer-area-01 a {
+  color: #fe9910;
+}
+.section2 {
+  padding: 20px;
+}
+
+.section1 {
+  padding: 20px;
+}
+
+.section3 {
+  padding: 20px;
 }
 /*Footer Section end*/
