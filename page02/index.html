@@ -5,29 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Assignment</title>
   </head>
   <body>
-    <div class="container">
-      <div class="product">
-        <div class="smallImage">
-          <img src="img/01.jpg" onclick="myFunction(this)" />
-          <img src="img/02.jpg" onclick="myFunction(this)" />
-          <img src="img/03.jpg" onclick="myFunction(this)" />
-          <img src="img/04.jpg" onclick="myFunction(this)" />
-          <img src="img/02.jpg" onclick="myFunction(this)" />
-        </div>
+    <div class="con">
+      <div class="header">
+        <div class="navbar">
+          <a href="#"> <img class="logo" src="img/logo.png" /> </a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Service</a></li>
+          </ul>
 
-        <div class="imageContainer">
-          <img id="imageBox" src="img/01.jpg" />
+          <div class="nav-icon">
+            <img src="img/bell.png" />
+          </div>
+        </div>
+      </div>
+      <div class="product-details-img">
+        <div class="container">
+          <div class="product">
+            <div class="smallImage">
+              <img src="img/01.jpg" onclick="myFunction(this)" />
+              <img src="img/02.jpg" onclick="myFunction(this)" />
+              <img src="img/03.jpg" onclick="myFunction(this)" />
+            </div>
+
+            <div class="imageContainer">
+              <img id="imageBox" src="img/01.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-details-description">3</div>
+      <div class="product-description">
+        <h4>
+          Fruitopia was a pet project of Coke's former marketing chief, Sergio
+          Zyman. The company spent an initial marketing budget of $30 million,
+          allowing Fruitopia to quickly gain hype in the mid-1990s. TIME
+          magazine named Fruitopia one of the Top 10 New Products of 1994, and
+          the beverage was even mentioned on the popular animated series The
+          Simpsons. TIME magazine named Fruitopia one of the Top 10 New Products
+          of 1994, and the beverage was even mentioned on the popular animated
+          series The Simpsons.
+        </h4>
+      </div>
+      <div class="footer">
+        <div class="footer">
+          <div class="footer-container">
+            <div class="footer-area-01">
+              <div class="section1">
+                <h2 class="footer-title">PRODUCT</h2>
+                <a href="#">Pricing</a>
+                <a href="#">Feature</a>
+                <a href="#">Class</a>
+                <a href="#">Buyinfo</a>
+              </div>
+            </div>
+            <div class="footer-area-02">
+              <div class="section2">
+                <h2 class="footer-title">COMPANY</h2>
+                <a href="#">Mission</a>
+                <a href="#">History</a>
+                <a href="#">Stuff</a>
+                <a href="#">Hair</a>
+              </div>
+            </div>
+            <div class="footer-area-03">
+              <div class="section3">
+                <h2 class="footer-title">CONTACT</h2>
+
+                <h4>Dhaka</h4>
+                <h4>#73,Elephent Road</h4>
+                <h4>cell:+909989</h4>
+                <h4>Bangladesh</h4>
+              </div>
+              <div class="social-media-icon">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <script>
-      function myFunction(smallImg) {
-        var fullImg = document.getElementById("imageBox");
-        fullImg.src = smallImg.src;
-      }
-    </script>
+
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
