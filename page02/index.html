@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>JS Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="product">
+        <div class="smallImage">
+          <img src="img/01.jpg" onclick="myFunction(this)" />
+          <img src="img/02.jpg" onclick="myFunction(this)" />
+          <img src="img/03.jpg" onclick="myFunction(this)" />
+          <img src="img/04.jpg" onclick="myFunction(this)" />
+          <img src="img/02.jpg" onclick="myFunction(this)" />
+        </div>
+
+        <div class="imageContainer">
+          <img id="imageBox" src="img/01.jpg" />
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction(smallImg) {
+        var fullImg = document.getElementById("imageBox");
+        fullImg.src = smallImg.src;
+      }
+    </script>
+  </body>
+</html>

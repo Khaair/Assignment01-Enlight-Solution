@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.smallImage img {
+  height: 90px;
+  width: 100px;
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  opacity: 0.6;
+}
+
+.smallImage img:hover {
+  opacity: 1;
+}
+
+.product {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.smallImage {
+  float: left;
+}
+
+.imageContainer img {
+  height: 530px;
+}
+.imageContainer {
+  float: right;
+}

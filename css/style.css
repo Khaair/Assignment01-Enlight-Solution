@@ -13,10 +13,32 @@
 }
 
 .header {
-  background-color: rosybrown;
+  background-color: #1c538e;
   grid-column: 1/-1;
 }
-/*Header section */
+.banner {
+  background-color: #1c538e;
+  grid-column: 1/-1;
+}
+
+.heading-text {
+  grid-column: 1/-1;
+}
+.card-section-one {
+  background-color: steelblue;
+  border: 2px solid #d0d1d5;
+  grid-column: 1/-1;
+}
+.card-section-two {
+  background-color: slateblue;
+  border: 2px solid #d0d1d5;
+  grid-column: 1/-1;
+}
+
+.footer {
+  grid-column: 1/-1;
+}
+/*Header section start*/
 body {
   background-color: ;
 }
@@ -57,6 +79,10 @@ li a {
   color: black;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
+}
+a {
+  display: block;
   text-decoration: none;
 }
 
@@ -108,28 +134,28 @@ li a {
 
 /*Header section end*/
 
-/* card-heading-text*/
+/* card-heading-text start*/
+.heading-text {
+}
 
 .card-heading-text {
   background-color: white;
   height: 100px;
-  width: 1200px;
-  border: 1px solid #d0d1d5;
+  width: auto;
+  border: 2px solid #d0d1d5;
   border-radius: 10px;
-  margin: auto;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 10px;
 
   padding: 12px;
-  padding-left: 2px;
+
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   display: grid;
-  justify-content: left;
+  justify-content: center;
 }
 
-/*card-heading-text */
+/*card-heading-text end */
 
-/*Card Section One */
+/*Card Section One start */
 
 .containers {
   background-color: #324a38;
@@ -163,9 +189,9 @@ li a {
 .card:hover {
   box-shadow: 6px 10px 12px white;
 }
-/*Card Section One */
+/*Card Section One end */
 
-/*Footer Section*/
+/*Footer Section start*/
 .footer-container {
   height: 400px;
   width: 100%;
@@ -194,26 +220,4 @@ li a {
 .footer-title {
   color: white;
 }
-/*Footer Section*/
-.banner {
-  background-color: seagreen;
-  grid-column: 1/-1;
-}
-
-.heading-text {
-  grid-column: 1/-1;
-}
-.card-section-one {
-  border: 2px solid red;
-  background-color: steelblue;
-  grid-column: 1/-1;
-}
-.card-section-two {
-  border: 2px solid red;
-  background-color: slateblue;
-  grid-column: 1/-1;
-}
-
-.footer {
-  grid-column: 1/-1;
-}
+/*Footer Section end*/
