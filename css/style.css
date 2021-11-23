@@ -209,6 +209,14 @@ input[type="checkbox"] {
 .detail h3 {
   font-size: 35px;
 }
+@media (max-width: 920px) {
+  .detail h1 {
+    font-size: 40px;
+  }
+  .detail h3 {
+    font-size: 20px;
+  }
+}
 
 .detail span {
   color: #f14a60;
