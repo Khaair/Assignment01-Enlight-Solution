@@ -4,6 +4,12 @@
   font-family: "Dosis", sans-serif;
 }
 
+body {
+  background-color: slateblue;
+}
+
+/*Grid start*/
+
 .container {
   height: 700px;
   width: 100%;
@@ -13,11 +19,11 @@
 }
 
 .header {
-  background-color: #65a590;
+  background-color: slateblue;
   grid-column: 1/-1;
 }
 .banner {
-  background-color: #1c538e;
+  background-color: #179137;
   grid-column: 1/-1;
 }
 
@@ -38,19 +44,14 @@
 .footer {
   grid-column: 1/-1;
 }
+
+/*Grid end */
+
 /*Header section start*/
-body {
-  background-color: ;
-}
 
 .logo {
   padding-left: 50px;
   padding-top: -30px;
-}
-
-.hero {
-  width: 80%;
-  margin: auto;
 }
 
 .navbar {
@@ -58,9 +59,7 @@ body {
   display: flex;
   align-items: center;
 }
-.banner {
-  padding-left: 50px;
-}
+
 ul {
   flex: 1;
   text-align: right;
@@ -82,6 +81,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: x-large;
+  text-transform: uppercase;
 }
 li a:hover {
   background-color: #f14a60;
@@ -96,6 +96,14 @@ a {
   margin-left: 40px;
   cursor: pointer;
   padding-right: 30px;
+}
+
+/*Header section end*/
+
+/*Banner section start*/
+
+.banner {
+  padding-left: 50px;
 }
 
 .banner-inner {
@@ -134,7 +142,7 @@ a {
   color: #f14a60;
 }
 
-/*Header section end*/
+/*Banner section end*/
 
 /* card-heading-text start*/
 .heading-text {

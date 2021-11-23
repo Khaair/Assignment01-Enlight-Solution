@@ -23,7 +23,21 @@
 }
 .product-details-description {
   grid-column: 7/-1;
-  background-color: yellowgreen;
+}
+.product-details-description-section {
+  padding: 20px;
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 .product-description {
   grid-column: 1/-1;
@@ -190,9 +204,19 @@ a {
 .section2 {
   padding: 20px;
 }
+.section2 a:hover {
+  background-color: white;
+  width: fit-content;
+  color: black;
+}
 
 .section1 {
   padding: 20px;
+}
+.section1 a:hover {
+  background-color: white;
+  width: fit-content;
+  color: black;
 }
 
 .section3 {
