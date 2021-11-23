@@ -76,6 +76,12 @@ nav .nav-icon {
   width: 50px;
   height: 40px;
 }
+@media (max-width: 920px) {
+  .icon-img {
+    width: 30px;
+    height: 20px;
+  }
+}
 nav ul {
   display: flex;
   flex-wrap: wrap;
