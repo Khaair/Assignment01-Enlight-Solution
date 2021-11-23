@@ -43,7 +43,13 @@
 }
 .product-description {
   grid-column: 1/-1;
-  background-color: violet;
+
+  height: 300px;
+  padding: 20px;
+}
+.p-title {
+  display: flex;
+  justify-content: center;
 }
 /*Header section start*/
 
@@ -72,6 +78,13 @@ nav .nav-icon {
 .icon-img {
   width: 50px;
   height: 40px;
+}
+@media (max-width: 920px) {
+  .icon-img {
+    width: 30px;
+    height: 20px;
+    padding-left: 20px;
+  }
 }
 nav ul {
   display: flex;
@@ -113,6 +126,8 @@ input[type="checkbox"] {
 @media (max-width: 920px) {
   nav .menu-btn i {
     display: block;
+    padding-left: 10px;
+    float: left;
   }
   #click:checked ~ .menu-btn i:before {
     content: "\f00d";
@@ -189,6 +204,13 @@ input[type="checkbox"] {
 .imageContainer img {
   height: 530px;
 }
+@media (max-width: 920px) {
+  .imageContainer img {
+    height: 250px;
+    padding-left: 25px;
+    border: solid 2px red;
+  }
+}
 .imageContainer {
   float: right;
 }
@@ -199,7 +221,7 @@ input[type="checkbox"] {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 30px auto;
+  grid-template-rows: 0px auto;
 }
 .footer-area-01 {
   background-color: #202020;
@@ -210,13 +232,12 @@ input[type="checkbox"] {
 .footer-area-02 {
   background-color: #202020;
   grid-column: 4/9;
-  grid-row: 1/-1;
   color: #fe9910;
 }
 .footer-area-03 {
   background-color: #202020;
   grid-column: 9/-1;
-  grid-row: 1/-1;
+
   color: #fe9910;
 }
 .footer-title {
@@ -232,62 +253,24 @@ input[type="checkbox"] {
 .section2 {
   padding: 20px;
 }
-.section2 a:hover {
-  background-color: white;
-  width: fit-content;
-  color: black;
-}
 
 .section1 {
   padding: 20px;
-}
-.section1 a:hover {
-  background-color: white;
-  width: fit-content;
-  color: black;
 }
 
 .section3 {
   padding: 20px;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
 
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.social-media-icon {
-  margin: 20px;
-  padding-top: 50px;
-}
 a {
   display: block;
   text-decoration: none;
+}
+.copy-right {
+  color: white;
+  height: 150px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
 }
 /*Footer Section end*/

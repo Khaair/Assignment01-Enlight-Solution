@@ -211,6 +211,18 @@ input[type="checkbox"] {
   border-radius: 10px;
   padding-left: 20px;
 }
+@media (max-width: 920px) {
+  .searchbox input {
+    height: 55px;
+    width: auto;
+    margin-left: 15px;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+  }
+}
 
 .detail h1 {
   font-size: 80px;
@@ -352,6 +364,13 @@ a {
 
 .section3 {
   padding: 20px;
+}
+.copy-right {
+  color: white;
+  height: 150px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 /*Footer Section end*/
