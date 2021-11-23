@@ -123,6 +123,7 @@ input[type="checkbox"] {
 @media (max-width: 920px) {
   nav .menu-btn i {
     display: block;
+    padding-left: 10px;
   }
   #click:checked ~ .menu-btn i:before {
     content: "\f00d";
