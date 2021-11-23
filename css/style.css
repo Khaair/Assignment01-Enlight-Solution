@@ -288,8 +288,11 @@ input[type="checkbox"] {
 
 .image-description {
   text-align: justify;
-  color: white;
+  color: rgb(238, 18, 18);
   padding: 5px;
+}
+.image-description h5 {
+  color: blanchedalmond;
 }
 .card:hover {
   box-shadow: 6px 10px 12px white;
