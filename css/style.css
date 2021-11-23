@@ -53,11 +53,6 @@ body {
 .logo {
   padding-left: 0px;
 }
-@media (max-width: 920px) {
-  .logo {
-    padding-left: 5px;
-  }
-}
 
 nav {
   display: flex;
