@@ -298,7 +298,6 @@ input[type="checkbox"] {
 }
 @media (max-width: 920px) {
   .nav-icon .icon-img {
-    border: 2px solid pink;
     height: 50px;
     width: 50px;
   }
