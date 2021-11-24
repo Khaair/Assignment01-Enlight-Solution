@@ -299,8 +299,8 @@ input[type="checkbox"] {
 @media (max-width: 920px) {
   .icon-img {
     border: 2px solid red;
-    height: fit-content;
-    width: fit-content;
+    height: auto;
+    width: auto;
   }
 }
 .sec {
