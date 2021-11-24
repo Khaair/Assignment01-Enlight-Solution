@@ -36,13 +36,16 @@
              <li><a href="#">About</a></li>
              <li><a href="#">Services</a></li>
              <li><a href="#">Gallery</a></li>
+             
             
              
             
           </ul>
-          <h1><i class=" fa fa-shopping-cart"></i></h1>
+          
           <div class="nav-icon">
+            <h4 style="color: #F14A60; padding-left: 25px; font-size: larger;" id="incrementtext">0</h4>>
            <img class="icon-img" src="img/cart.png" /></h1> 
+           
           </div>
           
           
@@ -83,23 +86,25 @@
             <img class="image" src="img/khair.jpg" />
             <div class="title">TMP 214-53 Intel Core I5</div>
             <div class="image-description">
-             <h5> Dhamaka Official Store (computing)</h5>
+             <h5>Official Store (computing)</h5>
               <br>
-
-             <h3 style="color: #FE9910;">৳64000</h3> 
-             <button><img class="icon-img" src="img/cart.png" /></button>
-
-            
               
+
+             <h3 style="color: #FE9910;">৳64000</h3>
+              <section class="sec">
+             <a href="page02/index.html"><button class="button">View Details</button></a>
+             <div class="nav-icon">
+    <span class="btn" onclick="incrementButton()"><img  class="icon-img" src="img/cart.png" /></span>
+            </div>
+          </section>
+            
             
             </div>
           
             
           </div>
-          <div class="select">
-		
-          </div>
-          <a href="page02/index.html">
+         
+          
 
           <div class="card">
             <img class="image" src="img/05.jpg" />
@@ -109,12 +114,17 @@
               <br>
 
              <h3 style="color: #FE9910;">৳64000</h3> 
-             <div class="nav-icon">
-              <a href="#"> <img class="icon-img" src="img/cart.png" /> </a>
-            </div>
+
+             <section class="sec">
+              <a href="page02/index.html"><button class="button">View Details</button></a>
+              <div class="nav-icon">
+     <span class="btn" onclick="incrementButton()"><img  class="icon-img" src="img/cart.png" /></span>
+             </div>
+           </section>
+                      
             </div>
           </div>
-        </a>
+        
         <a href="page02/index.html">
           <div class="card">
             <img class="image" src="img/06.png" />
@@ -124,9 +134,12 @@
               <br>
 
              <h3 style="color: #FE9910;">৳64000</h3> 
-             <div class="nav-icon">
-              <a href="#"> <img class="icon-img" src="img/cart.png" /> </a>
-            </div>
+             <section class="sec">
+              <a href="page02/index.html"><button class="button">View Details</button></a>
+              <div class="nav-icon">
+     <span class="btn" onclick="incrementButton()"><img  class="icon-img" src="img/cart.png" /></span>
+             </div>
+           </section>
             </div>
           </div>
         </div>
@@ -143,9 +156,12 @@
               <br>
 
              <h3 style="color: #FE9910;">৳64000</h3> 
-             <div class="nav-icon">
-              <a href="#"> <img class="icon-img" src="img/cart.png" /> </a>
-            </div>
+             <section class="sec">
+              <a href="page02/index.html"><button class="button">View Details</button></a>
+              <div class="nav-icon">
+     <span class="btn" onclick="incrementButton()"><img  class="icon-img" src="img/cart.png" /></span>
+             </div>
+           </section>
             </div>
           </div>
         </a>
@@ -158,9 +174,12 @@
               <br>
 
              <h3 style="color: #FE9910;">৳64000</h3> 
-             <div class="nav-icon">
-              <a href="#"> <img class="icon-img" src="img/cart.png" /> </a>
-            </div>
+             <section class="sec">
+              <a href="page02/index.html"><button class="button">View Details</button></a>
+              <div class="nav-icon">
+     <span class="btn" onclick="incrementButton()"><img  class="icon-img" src="img/cart.png" /></span>
+             </div>
+           </section>
             </div>
           </div>
         </a>
@@ -173,9 +192,12 @@
               <br>
 
              <h3 style="color: #FE9910;">৳64000</h3> 
-             <div class="nav-icon">
-              <a href="#"> <img class="icon-img" src="img/cart.png" /> </a>
-            </div>
+             <section class="sec">
+              <a href="page02/index.html"><button class="button">View Details</button></a>
+              <div class="nav-icon">
+     <span class="btn" onclick="incrementButton()"><img  class="icon-img" src="img/cart.png" /></span>
+             </div>
+           </section>
             </div>
           </div>
         </a>
@@ -223,8 +245,16 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="js/product.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    
+   <script>
+       function incrementButton() {
+        var element = document.getElementById("incrementtext");
+        var value = element.innerHTML;
+        ++value;
+        console.log(value);
+        document.getElementById("incrementtext").innerHTML = value;
+      }
+   </script>
     
   </body>
 </html>

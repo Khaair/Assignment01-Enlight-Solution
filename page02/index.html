@@ -32,6 +32,7 @@
             
           </ul>
           <div class="nav-icon">
+            <h4 style="color: #F14A60; padding-left: 25px; font-size: larger;" id="incrementtext">0</h4>>
             <img class="icon-img" src="img/cart.png" />
           </div>
           
@@ -76,7 +77,7 @@
           <p>256GB SSD</p>
           <p>Product Id: 237654</p>
           <h3>₹45,990.00</h3>
-          <a href="#" class="button">ADD TO CART</a>
+          <a href="#" class="button" onclick="incrementButton()">ADD TO CART</a>
           <button class="button">BUY NOW</button>
         </div>
       </div>
@@ -123,7 +124,7 @@
                 <a href="#">Stuff</a>
                 <a href="#">Hair</a>
               </div>
-              <h4 class="copy-right">Copyright © 2021 Khsir'sEC Bangladesh Ltd.</h4>
+              <p class="copy-right">Copyright © 2021 Khsir'sEC Bangladesh Ltd.</p>
             </div>
             <div class="footer-area-03">
               <div class="section3">
@@ -142,6 +143,15 @@
         </div>
       </div>
      </div>
+     <script>
+      function incrementButton() {
+       var element = document.getElementById("incrementtext");
+       var value = element.innerHTML;
+       ++value;
+       console.log(value);
+       document.getElementById("incrementtext").innerHTML = value;
+     }
+  </script>
 
     <script type="text/javascript" src="script.js"></script>
   </body>

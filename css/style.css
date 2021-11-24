@@ -271,6 +271,10 @@ input[type="checkbox"] {
 /*Card Section One start */
 .nav-icon {
   float: right;
+  margin-bottom: 0px;
+}
+.nav-icon:hover {
+  cursor: pointer;
 }
 
 .containers {
@@ -279,9 +283,26 @@ input[type="checkbox"] {
   display: flex;
   flex-wrap: wrap;
 }
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+.sec {
+  display: flex;
+  display: inline;
+}
 .card {
   width: 250px;
-  height: 360px;
+  height: 420px;
   padding: 5px;
   box-shadow: 1px 2px 4px black;
   box-sizing: border-box;
