@@ -296,6 +296,11 @@ input[type="checkbox"] {
 
   cursor: pointer;
 }
+@media (max-width: 920px) {
+  .icon-img {
+    border: 2px solid red;
+  }
+}
 .sec {
   display: flex;
   display: inline;
