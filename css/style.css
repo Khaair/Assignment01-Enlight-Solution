@@ -297,10 +297,10 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 @media (max-width: 920px) {
-  .icon-img {
+  .nav-icon .icon-img {
     border: 2px solid red;
-    height: auto;
-    width: auto;
+    height: 50px;
+    width: 40px;
   }
 }
 .sec {
