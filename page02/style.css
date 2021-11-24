@@ -208,7 +208,6 @@ input[type="checkbox"] {
   .imageContainer img {
     height: 250px;
     padding-left: 25px;
-    border: solid 2px red;
   }
 }
 .imageContainer {
